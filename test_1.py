@@ -67,7 +67,5 @@ def main():
         "Option 1 is better"
     print(answer)
 
-var 1 = option1()
-var 2 = option2()
-print(var1)
-print(var2)
+
+    main()
