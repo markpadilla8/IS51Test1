@@ -56,8 +56,18 @@ def option2():
 
 
 def main():
-    pass
+    answer = ""
+    var1 = option1()
+    var2 = option2()
+    if var1 == var2:
+        answer = "Option 1 and Option 2 pays the same."
+    elif var1 < var2:
+        answer = "Option 2 is better"
+    else:
+        "Option 1 is better"
+    print(answer)
 
 var 1 = option1()
-option2()
+var 2 = option2()
 print(var1)
+print(var2)
