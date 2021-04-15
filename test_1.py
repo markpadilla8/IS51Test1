@@ -10,9 +10,9 @@ Function1 will calculate the amount for the first option, while function2 will c
 function1 will output 100 * 10 days.
 function2 will loop 10 times, while each time doubling the amount and add the amount to the total. 
 
-if the amount is equal, we output to the user “Option 1 and Option 2 pays the same"
-if option1 is better, we output to the user "Option 1 is better"
-if option2 is better, we output to the user "Option 2 is better"
+if the amount is equal, we output to the user “Option 1 and Option 2 are the same"
+if the option1 is better, we output to the user "Option 1 is better"
+if the option2 is better, we output to the user "Option 2 is better"
 """
 
 """
@@ -41,3 +41,23 @@ if option2 is better, we output to the user "Option 2 is better"
 main
 """
 
+def option1():
+    return 100 * 10
+
+def option2():
+    amount = 1
+    list1 = []
+    for i in range(0,10)
+        list1.append(amount)
+        amount *= 2
+    print("list1", list1)
+    # total = sum(list1)
+    return total
+
+
+def main():
+    pass
+
+var 1 = option1()
+option2()
+print(var1)
